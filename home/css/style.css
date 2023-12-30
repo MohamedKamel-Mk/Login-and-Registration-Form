@@ -1,0 +1,29 @@
+*{
+    font-family: 'Merriweather', serif;
+}
+body {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.500), rgba(0, 0, 0, 0.500)), url(../Home.jpg) !important;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 70vh;
+}
+.form-control:focus {
+    box-shadow: rgba(255, 238, 0, 0.619) -5px 2px 54px -9px;
+    background-color: rgb(255, 255, 255);
+}
+.group {
+    box-shadow: rgb(0, 0, 0) -5px 2px 54px -9px;
+}
+.text{
+    color: #FFC107;
+}
+.sign-up:hover{
+    color: #FFC107 !important;
+}
+.fs-1{
+    color: black;
+}
+.box-nav{
+    background-color: #00000067;
+}
